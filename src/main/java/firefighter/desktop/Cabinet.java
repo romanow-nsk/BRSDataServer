@@ -197,7 +197,7 @@ public class Cabinet extends MainBaseFrame{
         if (!tryToStart()) return;
         initComponents();
         Values.init();
-        setTitle("Сервер данных СНЭ");
+        setTitle("Сервер данных БРС 2.0");
         panelList = createPanelList();
         currentPanel = panelList[0];
         onStart();
@@ -434,11 +434,11 @@ public class Cabinet extends MainBaseFrame{
         getContentPane().add(MongoDB);
         MongoDB.setBounds(160, 110, 110, 20);
 
-        ESSLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/drawable/battery.png"))); // NOI18N
+        ESSLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/drawable/brs.png"))); // NOI18N
         ESSLabel.setBorderPainted(false);
         ESSLabel.setContentAreaFilled(false);
         getContentPane().add(ESSLabel);
-        ESSLabel.setBounds(10, 120, 60, 40);
+        ESSLabel.setBounds(10, 80, 40, 40);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -318,7 +318,7 @@ public class APIAdmin extends APIBase{
             Artifact art = (Artifact)db.common.getEntityByIdHTTP(req,res,Artifact.class);
             if (art==null)
                 return null;
-            I_Excel xls = art.getOriginalExt().equals("xlsx") ? new ExcelX() : new Excel();
+            I_Excel xls = art.getOriginalExt().equals("xlsx") ? new ExcelX() : (I_Excel) new Excel();
             db.clearDB();
             String zz = xls.load(db.dataServerFileDir()+"/"+art.createArtifactServerPath(),db.mongoDB);
             return new JString(zz);
@@ -406,7 +406,7 @@ public class APIAdmin extends APIBase{
             if (!path.exists())
                 path.mkdir();
             db.mongoDB.add(art);
-            I_Excel xls = xlsx.getValue() ? new ExcelX() : new Excel();
+            I_Excel xls = xlsx.getValue() ? new ExcelX() : (I_Excel) new Excel();
             if (blockSize.getValue()==0)
                 exportToExcel(xls);
             else

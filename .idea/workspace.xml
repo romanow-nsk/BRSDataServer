@@ -8,6 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1ebc7132-42f4-4f5f-8330-42e91175836e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,35 +89,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Client">
-    <configuration name="ArchStreamDataSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="firefighter.core.entity.subjectarea.ArchStreamDataSet" />
-      <module name="BRSCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firefighter.core.entity.subjectarea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Cabinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="firefighter.desktop.Cabinet" />
-      <module name="UnityDataserver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firefighter.desktop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CabinetServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="firefighter.desktop.CabinetServer" />
-      <module name="UnityDataserver" />
+      <module name="BRSDataserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="firefighter.desktop.*" />
@@ -125,7 +104,7 @@
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="firefighter.desktop.Client" />
-      <module name="UnityDataserver" />
+      <module name="BRSDataserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="firefighter.desktop.*" />
@@ -136,26 +115,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="firefighter.desktop.DigitPanel" />
-      <module name="UnityDataserver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firefighter.desktop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Cabinet" />
+      <item itemvalue="Application.Client" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Cabinet" />
-        <item itemvalue="Application.CabinetServer" />
-        <item itemvalue="Application.DigitPanel" />
-        <item itemvalue="Application.ArchStreamDataSet" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587566741112</updated>
-    </task>
-    <task id="LOCAL-00136" summary="Mail-уведомления (файлы прикрепленные???)">
-      <created>1603958820890</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1603958820892</updated>
     </task>
     <task id="LOCAL-00137" summary="Конфигурации">
       <created>1603991521036</created>
@@ -528,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606744689098</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="fix0">
+      <created>1606745037421</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1606745037423</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -563,10 +530,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix0" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="102" key="#Cabinet" timestamp="1606745089963">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="526" y="102" key="#Cabinet/0.0.1600.870@0.0.1600.870" timestamp="1606745089963" />
+    <state x="526" y="102" key="#Client" timestamp="1606745072737">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="526" y="102" key="#Client/0.0.1600.870@0.0.1600.870" timestamp="1606745072737" />
     <state x="1005" y="326" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1605453823285">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="1005" y="326" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1600.870@0.0.1600.870" timestamp="1605453823285" />
+    <state x="254" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606745135621">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="254" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1606745135621" />
     <state x="798" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1606450684094">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -587,10 +566,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="530" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.870@0.0.1600.870" timestamp="1605337259159" />
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606744684067">
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606745034375">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606744684067" />
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606745034375" />
     <state x="152" y="68" key="DiffContextDialog" timestamp="1602080161907">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -599,22 +578,22 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="580" y="146" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1606743222389" />
-    <state width="1556" height="222" key="GridCell.Tab.0.bottom" timestamp="1606458609099">
+    <state width="1556" height="168" key="GridCell.Tab.0.bottom" timestamp="1606746079398">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606458609099" />
-    <state width="1556" height="222" key="GridCell.Tab.0.center" timestamp="1606458609099">
+    <state width="1556" height="168" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
+    <state width="1556" height="168" key="GridCell.Tab.0.center" timestamp="1606746079398">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606458609099" />
-    <state width="1556" height="222" key="GridCell.Tab.0.left" timestamp="1606458609098">
+    <state width="1556" height="168" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
+    <state width="1556" height="168" key="GridCell.Tab.0.left" timestamp="1606746079398">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606458609098" />
-    <state width="1556" height="222" key="GridCell.Tab.0.right" timestamp="1606458609099">
+    <state width="1556" height="168" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
+    <state width="1556" height="168" key="GridCell.Tab.0.right" timestamp="1606746079398">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606458609099" />
+    <state width="1556" height="168" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
     <state width="1556" height="222" key="GridCell.Tab.1.bottom" timestamp="1606458609099">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -643,14 +622,14 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="591" y="148" key="RollbackChangesDialog/0.0.1600.870@0.0.1600.870" timestamp="1606123659920" />
-    <state x="280" y="11" key="SettingsEditor" timestamp="1606744999406">
+    <state x="280" y="11" key="SettingsEditor" timestamp="1606745158341">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="280" y="11" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606744999406" />
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606744698640">
+    <state x="280" y="11" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606745158341" />
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606745040162">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606744698640" />
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606745040162" />
     <state width="808" height="443" key="XDebugger.FullValuePopup" timestamp="1600777182122">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -659,10 +638,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="611" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.870@0.0.1600.870" timestamp="1604127244170" />
-    <state x="507" y="196" width="709" height="536" key="find.popup" timestamp="1606065998639">
+    <state x="507" y="196" width="709" height="536" key="find.popup" timestamp="1606745545159">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="507" y="196" width="709" height="536" key="find.popup/0.0.1600.870@0.0.1600.870" timestamp="1606065998639" />
+    <state x="507" y="196" width="709" height="536" key="find.popup/0.0.1600.870@0.0.1600.870" timestamp="1606745545159" />
     <state x="182" y="121" key="new project wizard" timestamp="1605879432105">
       <screen x="0" y="0" width="1600" height="870" />
     </state>

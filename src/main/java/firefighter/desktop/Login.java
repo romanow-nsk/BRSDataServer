@@ -122,15 +122,15 @@ public class Login extends JFrame {
         jLabel4.setBounds(20, 120, 110, 14);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel5.setText("Клиент сервера данных СНЭ");
+        jLabel5.setText("Клиент сервера данных БРС 2.0");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(130, 20, 230, 20);
+        jLabel5.setBounds(70, 20, 290, 20);
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/drawable/battery.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/drawable/brs.png"))); // NOI18N
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
         getContentPane().add(jButton1);
-        jButton1.setBounds(10, 10, 60, 50);
+        jButton1.setBounds(10, 10, 40, 40);
 
         LButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/drawable/login.png"))); // NOI18N
         LButton.setBorderPainted(false);
