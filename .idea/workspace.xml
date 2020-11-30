@@ -7,38 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ebc7132-42f4-4f5f-8330-42e91175836e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/ESSCore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/I_APICallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/I_APIConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/RestAPIBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/RestAPIProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/constants/IntegerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/constants/Values.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/BRSEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/EduPeriod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/NamedEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/WorkSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/events/EventFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/events/EventSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/DBExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/I_DBTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/DBExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/DBExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java" afterDir="false" />
-      <change beforePath="D:/FireFighterGit/UnityCore/.idea/workspace.xml" beforeDir="false" afterPath="D:/FireFighterGit/UnityCore/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../BRSCore" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -177,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587566741112</updated>
-    </task>
-    <task id="LOCAL-00138" summary="Баги в сообщения">
-      <created>1604033169619</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1604033169620</updated>
     </task>
     <task id="LOCAL-00139" summary="Классы запросов к БД">
       <created>1604049542721</created>
@@ -521,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606746140298</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="fix0">
+      <created>1606757319800</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1606757319801</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -592,10 +562,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="530" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.870@0.0.1600.870" timestamp="1605337259159" />
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606746137339">
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606757311240">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606746137339" />
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606757311240" />
     <state x="152" y="68" key="DiffContextDialog" timestamp="1602080161907">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -604,38 +574,38 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="580" y="146" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1606756156888" />
-    <state width="1556" height="222" key="GridCell.Tab.0.bottom" timestamp="1606756423772">
+    <state width="1556" height="222" key="GridCell.Tab.0.bottom" timestamp="1606757395926">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
-    <state width="1556" height="222" key="GridCell.Tab.0.center" timestamp="1606756423772">
+    <state width="1556" height="222" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606757395926" />
+    <state width="1556" height="222" key="GridCell.Tab.0.center" timestamp="1606757395926">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
-    <state width="1556" height="222" key="GridCell.Tab.0.left" timestamp="1606756423772">
+    <state width="1556" height="222" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606757395926" />
+    <state width="1556" height="222" key="GridCell.Tab.0.left" timestamp="1606757395926">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
-    <state width="1556" height="222" key="GridCell.Tab.0.right" timestamp="1606756423772">
+    <state width="1556" height="222" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606757395926" />
+    <state width="1556" height="222" key="GridCell.Tab.0.right" timestamp="1606757395926">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
-    <state width="1556" height="222" key="GridCell.Tab.1.bottom" timestamp="1606756423773">
+    <state width="1556" height="222" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606757395926" />
+    <state width="1556" height="222" key="GridCell.Tab.1.bottom" timestamp="1606757419384">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606756423773" />
-    <state width="1556" height="222" key="GridCell.Tab.1.center" timestamp="1606756423772">
+    <state width="1556" height="222" key="GridCell.Tab.1.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606757419384" />
+    <state width="1556" height="222" key="GridCell.Tab.1.center" timestamp="1606757419384">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.center/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
-    <state width="1556" height="222" key="GridCell.Tab.1.left" timestamp="1606756423772">
+    <state width="1556" height="222" key="GridCell.Tab.1.center/0.0.1600.870@0.0.1600.870" timestamp="1606757419384" />
+    <state width="1556" height="222" key="GridCell.Tab.1.left" timestamp="1606757419384">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.left/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
-    <state width="1556" height="222" key="GridCell.Tab.1.right" timestamp="1606756423772">
+    <state width="1556" height="222" key="GridCell.Tab.1.left/0.0.1600.870@0.0.1600.870" timestamp="1606757419384" />
+    <state width="1556" height="222" key="GridCell.Tab.1.right" timestamp="1606757419384">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.right/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
+    <state width="1556" height="222" key="GridCell.Tab.1.right/0.0.1600.870@0.0.1600.870" timestamp="1606757419384" />
     <state x="512" y="151" key="MultipleFileMergeDialog" timestamp="1603296240695">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -652,10 +622,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="280" y="11" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606756170944" />
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606746142115">
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606757323249">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606746142115" />
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606757323249" />
     <state width="808" height="443" key="XDebugger.FullValuePopup" timestamp="1600777182122">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -776,13 +746,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/DBExample.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="265" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/firefighter/desktop/ServerPanel.java</url>
-          <line>933</line>
-          <option name="timeStamp" value="266" />
+          <line>101</line>
+          <option name="timeStamp" value="267" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
