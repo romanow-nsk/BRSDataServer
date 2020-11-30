@@ -6,306 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ebc7132-42f4-4f5f-8330-42e91175836e" name="Default Changelist" comment="fix0">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/UnityDataserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UnityDataserver_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/QRCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIArtifact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APICommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APINotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/BackGroundOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/BeforeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ClockController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ConsoleServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/DataServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/I_ServerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ParamBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ParamBoolean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ParamInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ParamLong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ParamObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/ParamString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/RestAPIClientExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/SValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/SessionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/APICall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/APICall2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/APICallServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/AddressPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/AddressPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/AppData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ArtifactCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ArtifactPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ArtifactPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/BasePanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/BasePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/CabinetServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/CalendarPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/CalendarPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/CalendarView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/CalendarView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/CallBackWithGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Client.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EmptyPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EmptyPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityBasePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityEditPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityEditPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityPanelUni.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityPanelUni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityPopupPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntityPopupPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntitySelector.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntitySelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntitySelectorUni.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/EntitySelectorUni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/HelpPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/HelpPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_ButtonFull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_CalendarDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_CalendarTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_DownLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_ListSelected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_ListSelectedFull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_OK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_OK2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_OKParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_PanelEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_Period.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_RealValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_Success.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/I_Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ImagePanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ImagePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ImageView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ImageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/JEmptyCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ListBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ListSelector.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ListSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/MainBase.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/MainBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/MainBaseFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/MainBaseFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Message.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/MultiTextButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/OK.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/OK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/OKFull.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/OKFull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/PanelDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/PersonPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/PersonPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/PlayerPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/PlayerPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/PopupList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ReportsPanelBase.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ReportsPanelBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ServerPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ServerPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/UploadPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/UploadPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/UserPanelBase.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/UserPanelBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/UtilsDesktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ValuePanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/ValuePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/VideoPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/VideoPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/WorkSettingsPanel.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/WorkSettingsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/audioplayer/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/audioplayer/PlayerCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/view/MESContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/ftp/ServerFileAcceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/ftp/ServerFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firefighter/ftp/ServerFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/ESSLabel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/add2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/archive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/balloon_black.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/balloon_tail_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/battery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/bonus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/building.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/building_g.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/calendar_clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/clicked_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/date.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/date_clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/default_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/document-export.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/document-import.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/empty_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/entry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/equipment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/esslabel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/events48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/firefighter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/firefighter240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/firefighter_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/gps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/gps_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/gsm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/header_image_signal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/header_image_traffic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/header_image_xz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/house_marker_expandable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/house_marker_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/house_marker_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/ic_action_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/interior.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/ip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/lecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/left.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/list2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/little_clock_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/little_clock_yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/load.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/loader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/local.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/media-play-back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/media-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/media_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/media_pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/media_play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/media_record.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/microphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/network.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/newitem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/no_map_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/no_problem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/onway.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/plusminus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/port.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/problem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/qrcode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/quality.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/remote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/remove2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/rewind48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/right.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/route.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/settings48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sgrayvga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sgreenvga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/shiftoff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/shiftoff1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/shifton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/shifton1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sredvga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/statistic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/status_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/status_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/status_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/status_yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/stops.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/stops_min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/stricolorvga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/summ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/summ64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sv_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sv_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sv_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sv_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/sv_yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/syellowvga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/synch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/taxi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/up.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/updown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/user_location_gps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/user_location_lbs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/where.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/where_am_i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/where_am_i_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/who.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/yandex_logo_en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/yandex_logo_en_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/yandex_logo_ru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/yandex_logo_ru_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/zoom_minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/zoom_minus_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/zoom_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/zoom_plus_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drawable/zwezda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/left.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/css/2.8ec7af7b.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/css/2.8ec7af7b.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/css/main.a357dfa6.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/css/main.a357dfa6.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/js/2.5db224f9.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/js/2.5db224f9.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/js/main.7316d282.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/js/main.7316d282.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/js/runtime~main.a8a9905a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/js/runtime~main.a8a9905a.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/static/media/HeaderLogo.d686cf65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/right.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/webapi/111.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/webapi/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/webapi/js/ajax.js" afterDir="false" />
+    <list default="true" id="1ebc7132-42f4-4f5f-8330-42e91175836e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587566741112</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Панели трендов">
-      <created>1603823703248</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1603823703257</updated>
     </task>
     <task id="LOCAL-00136" summary="Mail-уведомления (файлы прикрепленные???)">
       <created>1603958820890</created>
@@ -826,14 +521,20 @@
       <option name="project" value="LOCAL" />
       <updated>1606454825392</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="fix0">
+      <created>1606744689097</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1606744689098</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/../BRSCore" />
     </ignored-roots>
-    <MESSAGE value="Баги в сообщения" />
     <MESSAGE value="Классы запросов к БД" />
     <MESSAGE value="Удаление устаревших" />
     <MESSAGE value="Источник файлов" />
@@ -858,7 +559,8 @@
     <MESSAGE value="Уставки - запись" />
     <MESSAGE value="008 - xlsx" />
     <MESSAGE value="008 - Упакованные данные тренда" />
-    <option name="LAST_COMMIT_MESSAGE" value="008 - Упакованные данные тренда" />
+    <MESSAGE value="fix0" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1005" y="326" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1605453823285">
@@ -885,10 +587,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="530" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.870@0.0.1600.870" timestamp="1605337259159" />
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606743130184">
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606744684067">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606743130184" />
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606744684067" />
     <state x="152" y="68" key="DiffContextDialog" timestamp="1602080161907">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -941,14 +643,14 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="591" y="148" key="RollbackChangesDialog/0.0.1600.870@0.0.1600.870" timestamp="1606123659920" />
-    <state x="280" y="11" key="SettingsEditor" timestamp="1606744606133">
+    <state x="280" y="11" key="SettingsEditor" timestamp="1606744999406">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="280" y="11" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606744606133" />
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606454827044">
+    <state x="280" y="11" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606744999406" />
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606744698640">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606454827044" />
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606744698640" />
     <state width="808" height="443" key="XDebugger.FullValuePopup" timestamp="1600777182122">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
