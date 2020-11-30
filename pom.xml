@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>romanow.unity</groupId>
-    <artifactId>UnityDataserver</artifactId>
+    <groupId>romanow.brs</groupId>
+    <artifactId>BRSDataserver</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -142,11 +142,6 @@
             <artifactId>rsync4j-windows-x86</artifactId>
             <version>3.1.2-16</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>3.11</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
         <dependency>
             <groupId>com.google.zxing</groupId>
@@ -182,20 +177,8 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>romanow.unity</groupId>
-            <artifactId>ESSCore</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>romanow.unity</groupId>
-            <artifactId>UnityCore</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>romanow.unity</groupId>
-            <artifactId>UnityCore</artifactId>
+            <groupId>romanow.brs</groupId>
+            <artifactId>BRSCore</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

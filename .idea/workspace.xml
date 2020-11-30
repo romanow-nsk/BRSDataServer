@@ -7,12 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ebc7132-42f4-4f5f-8330-42e91175836e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/ESSCore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/I_APICallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/I_APIConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/RestAPIBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/API/RestAPIProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/constants/IntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/constants/Values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/BRSEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/EduPeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/NamedEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/WorkSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/events/EventFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/core/entity/subjectarea/events/EventSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/DBExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/I_DBTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Cabinet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firefighter/desktop/Login.java" afterDir="false" />
+      <change beforePath="D:/FireFighterGit/UnityCore/.idea/workspace.xml" beforeDir="false" afterPath="D:/FireFighterGit/UnityCore/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +84,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/FireFighterGit/UnityCore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BRSCore" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
@@ -73,8 +99,9 @@
       <recent name="firefighter.core.jdbc" />
       <recent name="firefighter.core.drivers" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="firefighter.desktop" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FireFighterGit\UnityDataserver\src\main\java\firefighter\desktop" />
+      <recent name="D:\FireFighterGit\UnityDataserver\src\main\java\firefighter\desktop.ess" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="firefighter.core.jdbc" />
@@ -83,9 +110,8 @@
       <recent name="firefighter.desktop" />
       <recent name="firefighter.desktop.view" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\FireFighterGit\UnityDataserver\src\main\java\firefighter\desktop" />
-      <recent name="D:\FireFighterGit\UnityDataserver\src\main\java\firefighter\desktop.ess" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="firefighter.desktop" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Client">
@@ -151,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587566741112</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Конфигурации">
-      <created>1603991521036</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1603991521037</updated>
     </task>
     <task id="LOCAL-00138" summary="Баги в сообщения">
       <created>1604033169619</created>
@@ -495,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606745037423</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="fix0">
+      <created>1606746140298</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1606746140298</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -546,18 +572,18 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="254" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1606745135621" />
-    <state x="798" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1606450684094">
+    <state x="798" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1606754682662">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="798" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1606450684094" />
+    <state x="798" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1606754682662" />
     <state x="638" y="218" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604077494541">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="638" y="218" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.870@0.0.1600.870" timestamp="1604077494540" />
-    <state x="592" y="303" width="632" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606729041827">
+    <state x="592" y="303" width="632" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606749912960">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="592" y="303" width="632" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.870@0.0.1600.870" timestamp="1606729041827" />
+    <state x="592" y="303" width="632" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.870@0.0.1600.870" timestamp="1606749912960" />
     <state x="286" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603796439212">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -566,70 +592,70 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="530" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.870@0.0.1600.870" timestamp="1605337259159" />
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606745034375">
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2" timestamp="1606746137339">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606745034375" />
+    <state x="441" y="44" width="1134" height="800" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1606746137339" />
     <state x="152" y="68" key="DiffContextDialog" timestamp="1602080161907">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="152" y="68" key="DiffContextDialog/0.0.1600.870@0.0.1600.870" timestamp="1602080161907" />
-    <state x="580" y="146" key="FileChooserDialogImpl" timestamp="1606743222389">
+    <state x="580" y="146" key="FileChooserDialogImpl" timestamp="1606756156888">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="580" y="146" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1606743222389" />
-    <state width="1556" height="168" key="GridCell.Tab.0.bottom" timestamp="1606746079398">
+    <state x="580" y="146" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1606756156888" />
+    <state width="1556" height="222" key="GridCell.Tab.0.bottom" timestamp="1606756423772">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="168" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
-    <state width="1556" height="168" key="GridCell.Tab.0.center" timestamp="1606746079398">
+    <state width="1556" height="222" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
+    <state width="1556" height="222" key="GridCell.Tab.0.center" timestamp="1606756423772">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="168" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
-    <state width="1556" height="168" key="GridCell.Tab.0.left" timestamp="1606746079398">
+    <state width="1556" height="222" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
+    <state width="1556" height="222" key="GridCell.Tab.0.left" timestamp="1606756423772">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="168" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
-    <state width="1556" height="168" key="GridCell.Tab.0.right" timestamp="1606746079398">
+    <state width="1556" height="222" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
+    <state width="1556" height="222" key="GridCell.Tab.0.right" timestamp="1606756423772">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="168" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606746079398" />
-    <state width="1556" height="222" key="GridCell.Tab.1.bottom" timestamp="1606458609099">
+    <state width="1556" height="222" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
+    <state width="1556" height="222" key="GridCell.Tab.1.bottom" timestamp="1606756423773">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606458609099" />
-    <state width="1556" height="222" key="GridCell.Tab.1.center" timestamp="1606458609099">
+    <state width="1556" height="222" key="GridCell.Tab.1.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606756423773" />
+    <state width="1556" height="222" key="GridCell.Tab.1.center" timestamp="1606756423772">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.center/0.0.1600.870@0.0.1600.870" timestamp="1606458609099" />
-    <state width="1556" height="222" key="GridCell.Tab.1.left" timestamp="1606458609099">
+    <state width="1556" height="222" key="GridCell.Tab.1.center/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
+    <state width="1556" height="222" key="GridCell.Tab.1.left" timestamp="1606756423772">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.left/0.0.1600.870@0.0.1600.870" timestamp="1606458609099" />
-    <state width="1556" height="222" key="GridCell.Tab.1.right" timestamp="1606458609099">
+    <state width="1556" height="222" key="GridCell.Tab.1.left/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
+    <state width="1556" height="222" key="GridCell.Tab.1.right" timestamp="1606756423772">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1556" height="222" key="GridCell.Tab.1.right/0.0.1600.870@0.0.1600.870" timestamp="1606458609099" />
+    <state width="1556" height="222" key="GridCell.Tab.1.right/0.0.1600.870@0.0.1600.870" timestamp="1606756423772" />
     <state x="512" y="151" key="MultipleFileMergeDialog" timestamp="1603296240695">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="512" y="151" key="MultipleFileMergeDialog/0.0.1600.870@0.0.1600.870" timestamp="1603296240695" />
-    <state x="467" y="138" key="NewModule_or_Project.wizard" timestamp="1606743224051">
+    <state x="467" y="138" key="NewModule_or_Project.wizard" timestamp="1606756158496">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="467" y="138" key="NewModule_or_Project.wizard/0.0.1600.870@0.0.1600.870" timestamp="1606743224051" />
+    <state x="467" y="138" key="NewModule_or_Project.wizard/0.0.1600.870@0.0.1600.870" timestamp="1606756158496" />
     <state x="591" y="148" key="RollbackChangesDialog" timestamp="1606123659920">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="591" y="148" key="RollbackChangesDialog/0.0.1600.870@0.0.1600.870" timestamp="1606123659920" />
-    <state x="280" y="11" key="SettingsEditor" timestamp="1606745158341">
+    <state x="280" y="11" key="SettingsEditor" timestamp="1606756170944">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="280" y="11" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606745158341" />
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606745040162">
+    <state x="280" y="11" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606756170944" />
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2" timestamp="1606746142115">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606745040162" />
+    <state x="392" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1606746142115" />
     <state width="808" height="443" key="XDebugger.FullValuePopup" timestamp="1600777182122">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
@@ -742,6 +768,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/firefighter/dataserver/APIAdmin.java</url>
           <line>371</line>
           <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/DBExample.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../BRSCore/src/main/java/firefighter/dataserver/DBExample.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/firefighter/desktop/ServerPanel.java</url>
+          <line>933</line>
+          <option name="timeStamp" value="266" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -406,7 +406,7 @@ public class APIAdmin extends APIBase{
             if (!path.exists())
                 path.mkdir();
             db.mongoDB.add(art);
-            I_Excel xls = xlsx.getValue() ? new ExcelX() : (I_Excel) new Excel();
+            I_Excel xls = xlsx.getValue() ? new ExcelX() : new Excel();
             if (blockSize.getValue()==0)
                 exportToExcel(xls);
             else
